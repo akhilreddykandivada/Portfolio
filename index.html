@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhil Kandivada | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <h1 data-aos="fade-down">Akhil Kandivada</h1>
+    <p data-aos="fade-up">B.Tech CSE | Aspiring Software Engineer</p>
+    <button id="darkModeToggle">🌙</button>
+</header>
+
+<nav id="navbar">
+    <div class="menu-toggle" id="menuToggle">☰</div>
+    <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>
+        Motivated Computer Science student with strong skills in programming, data structures, and full-stack development.
+        Passionate about building scalable applications and solving real-world problems using Java and modern technologies.
+        Seeking opportunities to grow as a software engineer in a dynamic environment.
+    </p>
+</section>
+
+<section id="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+
+    <div class="grid">
+        <div class="card" data-aos="zoom-in">
+            <h3>Technical</h3>
+            <p>Java, C++, C<br>HTML, CSS<br>MySQL, MongoDB<br>DSA, OOP, DBMS</p>
+        </div>
+
+        <div class="card" data-aos="zoom-in" data-aos-delay="100">
+            <h3>Tools</h3>
+            <p>Git<br>VS Code<br>Eclipse</p>
+        </div>
+
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+            <h3>Soft Skills</h3>
+            <p>Problem Solving<br>Analytical Thinking<br>Teamwork<br>Adaptability</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+
+    <div class="card project-card" data-aos="fade-up">
+        <h3>Event Management and Ticketing System</h3>
+        <ul>
+            <li>Developed full-stack application using Java & MongoDB.</li>
+            <li>Implemented JWT authentication for secure access.</li>
+            <li>Built real-time seat booking system.</li>
+            <li>Designed REST APIs for seamless operations.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="education" data-aos="fade-right">
+    <h2>Education</h2>
+    <div class="card">
+        <p><strong>B.Tech - CSE</strong></p>
+        <p>CMR College of Engineering and Technology</p>
+    </div>
+</section>
+
+<section id="certifications" data-aos="fade-left">
+    <h2>Certifications</h2>
+    <div class="card">
+        <ul>
+            <li>Programming in Java – Infosys</li>
+            <li>Data Structures and Algorithms – Infosys</li>
+            <li>Introduction to Data Science – Cisco</li>
+            <li>Introduction to Modern AI – Cisco</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact" data-aos="fade-up">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: akhilkandivada@gmail.com</p>
+        <p>Phone: +91 9014496901</p>
+        <p><a href="https://www.linkedin.com/in/akhilreddykandivada" target="_blank">LinkedIn</a></p>
+        <p><a href="https://github.com/akhilreddykandivada" target="_blank">GitHub</a></p>
+    </div>
+</section>
+
+<footer data-aos="fade-up">
+    <p>© 2026 Akhil Kandivada</p>
+</footer>
+
+<!-- Scripts -->
+<script src="script.js"></script>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+</body>
+</html>
